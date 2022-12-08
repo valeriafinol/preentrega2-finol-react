@@ -1,0 +1,41 @@
+.cardItemDetail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  margin-bottom: 30px;
+}
+
+.cardContainer {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageDetail {
+  object-fit: contain;
+  width: 40%;
+  margin: 30px;
+}
+
+.itemDetailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.textItemDetail {
+  margin: 3%;
+}
+
+.h1Detail {
+  margin: 2% 0;
+  font-size: 2rem;
+  text-align: center;
+}
