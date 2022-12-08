@@ -20,12 +20,10 @@ const NavBar = () => {
               <NavLink to="/category/women">Women</NavLink>
             </li>
             <li>
-              <NavLink to="/cart">
-                <CartWidget
-                  src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
-                  alt="cart"
-                />
-              </NavLink>
+              <CartWidget
+                src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
+                alt="cart"
+              />
             </li>
           </ul>
         </nav>
